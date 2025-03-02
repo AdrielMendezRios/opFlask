@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello webhook!"
+    return "Hello webhook!!"
 
 @app.route('/world')
 def world():
-    return "world"
+    return "worldhook!"
 
 
 if __name__ == '__main__':
