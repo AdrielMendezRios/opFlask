@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "local op"
+    return "local op!"
 
 @app.route('/world')
 def world():
